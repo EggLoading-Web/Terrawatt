@@ -1,0 +1,160 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "projects": "Proyectos",
+    "sustainability": "Sostenibilidad",
+    "investors": "Inversores",
+    "news": "Noticias",
+    "careers": "Carreras",
+    "contact": "Contacto"
+  },
+  "common": {
+    "readMore": "Leer más",
+    "viewAll": "Ver todos",
+    "loading": "Cargando...",
+    "back": "Volver"
+  },
+  "hero": {
+    "title": "Energía que mueve al mundo",
+    "subtitle": "Impulsamos la transición energética con proyectos solares, eólicos e hidrógeno verde en tres continentes.",
+    "cta": "Ver proyectos",
+    "ctaSecondary": "Conocé más"
+  },
+  "home": {
+    "stats": {
+      "capacity": "Capacidad instalada",
+      "capacityUnit": "MW",
+      "co2Avoided": "CO₂ evitado",
+      "co2AvoidedUnit": "kt",
+      "countries": "Países",
+      "projects": "Proyectos activos"
+    },
+    "featured": {
+      "label": "Proyectos destacados",
+      "title": "Energía en movimiento",
+      "subtitle": "Una selección de nuestros proyectos más emblemáticos en tres continentes."
+    },
+    "sustainability": {
+      "label": "Sostenibilidad",
+      "title": "Comprometidos con el futuro",
+      "description": "Nuestro objetivo es alcanzar la neutralidad de carbono en 2040, diez años antes del Acuerdo de París.",
+      "point1": "100% energía renovable en todas nuestras operaciones",
+      "point2": "Programas de impacto social en comunidades locales",
+      "point3": "Economía circular en toda la cadena de valor",
+      "cta": "Conocer más"
+    },
+    "finalCta": {
+      "title": "Sumate a la transición energética",
+      "subtitle": "Buscamos talento y partners para seguir transformando el sector.",
+      "primary": "Trabajá con nosotros",
+      "secondary": "Contactanos"
+    }
+  },
+  "projects": {
+    "title": "Nuestros proyectos",
+    "subtitle": "Más de 1.500 MW de capacidad instalada en tres continentes.",
+    "filters": {
+      "all": "Todos",
+      "type": "Tipo",
+      "status": "Estado",
+      "solar": "Solar",
+      "wind": "Eólico",
+      "hydrogen": "Hidrógeno",
+      "operational": "Operativo",
+      "construction": "En construcción",
+      "planned": "Planificado"
+    },
+    "capacity": "Capacidad",
+    "co2Avoided": "CO₂ evitado",
+    "year": "Año",
+    "noResults": "No hay proyectos con esos filtros."
+  },
+  "projectDetail": {
+    "backToProjects": "Volver a proyectos",
+    "overview": "Descripción general",
+    "keyFigures": "Cifras clave",
+    "location": "Ubicación",
+    "status": "Estado",
+    "type": "Tipo"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "tagline": "Energía limpia para las próximas generaciones"
+  },
+    "sustainability": {
+    "label": "Sostenibilidad",
+    "title": "Comprometidos con el futuro",
+    "subtitle": "Nuestra estrategia ESG guía cada decisión, desde la inversión hasta la operación.",
+    "pillars": {
+      "title": "Nuestros pilares",
+      "environmental": "Ambiental",
+      "environmentalDesc": "Reducimos emisiones, protegemos ecosistemas y optimizamos el uso de recursos.",
+      "social": "Social",
+      "socialDesc": "Impulsamos el desarrollo local, la diversidad y el talento en cada comunidad.",
+      "governance": "Gobernanza",
+      "governanceDesc": "Operamos con transparencia, ética y altos estándares de cumplimiento."
+    },
+    "goals": {
+      "title": "Nuestras metas",
+      "goal2040": "Neutralidad de carbono",
+      "goal2030": "100% renovable en operaciones",
+      "goal2025": "Cero accidentes laborales",
+      "goal2025Biodiv": "Balance neto positivo en biodiversidad"
+    }
+  },
+  "about": {
+    "label": "Sobre nosotros",
+    "title": "Energía con propósito",
+    "subtitle": "Desde 2008 impulsamos la transición energética con proyectos en tres continentes.",
+    "mission": {
+      "title": "Nuestra misión",
+      "text": "Acelerar la transición hacia un modelo energético limpio, accesible y justo para las próximas generaciones."
+    },
+    "timeline": {
+      "title": "Nuestra historia",
+      "2008": "Fundación en Madrid",
+      "2015": "Primer proyecto internacional en Chile",
+      "2020": "Expansión a África y Brasil",
+      "2024": "1.500 MW de capacidad instalada",
+      "2030": "Meta: 5.000 MW globales"
+    },
+    "values": {
+      "title": "Nuestros valores",
+      "integrity": "Integridad",
+      "integrityDesc": "Hacemos lo correcto, incluso cuando nadie mira.",
+      "innovation": "Innovación",
+      "innovationDesc": "Buscamos soluciones que aún no existen.",
+      "impact": "Impacto",
+      "impactDesc": "Cada decisión se mide por su huella positiva."
+    }
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Hablemos",
+    "subtitle": "¿Tenés un proyecto, una consulta o querés sumarte al equipo? Escribinos.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "company": "Empresa (opcional)",
+      "subject": "Asunto",
+      "subjectGeneral": "Consulta general",
+      "subjectProjects": "Proyectos y partnerships",
+      "subjectCareers": "Carreras",
+      "subjectPress": "Prensa",
+      "message": "Mensaje",
+      "send": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Te vamos a responder a la brevedad.",
+      "error": "Hubo un error. Intentá de nuevo.",
+      "required": "Este campo es obligatorio",
+      "invalidEmail": "Email inválido"
+    },
+    "offices": {
+      "title": "Nuestras oficinas",
+      "madrid": "Madrid · HQ Global",
+      "saoPaulo": "São Paulo · LatAm",
+      "santiago": "Santiago · Cono Sur"
+    }
+  }
+}
