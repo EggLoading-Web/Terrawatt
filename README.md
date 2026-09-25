@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TerraWatt
 
-## Getting Started
+Corporate website for a fictional multinational renewable energy company.
 
-First, run the development server:
+## 🌍 Live demo
 
-```bash
+[https://terrawatt-kappa.vercel.app](https://terrawatt-kappa.vercel.app)
+
+## ✨ Features
+
+- Multiidioma (ES / EN / PT) con next-intl y rutas localizadas
+- 6 proyectos con filtros por tipo y estado
+- Páginas de sostenibilidad, sobre nosotros y contacto
+- Formulario con validación cliente
+- Contadores animados con IntersectionObserver
+- SEO multiidioma (hreflang, sitemap, robots)
+- Dark mode ready con Tailwind v4 tokens
+
+## 🛠 Stack
+
+- Next.js 16 (App Router + Turbopack)
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- next-intl
+- Vercel (deploy)
+
+## 📁 Estructura
+
+\`\`\`
+app/
+├── [locale]/           → rutas multiidioma
+│   ├── page.tsx        → home
+│   ├── proyectos/      → grid + detalle
+│   ├── sostenibilidad/ → ESG
+│   ├── nosotros/       → about + timeline
+│   └── contacto/       → formulario
+├── sitemap.ts
+└── robots.ts
+
+components/
+├── layout/             → Header, Footer, LocaleSwitcher
+├── sections/           → Hero, Stats, Featured, Sustainability, FinalCta
+└── ui/                 → ProjectCard, ProjectsGrid, ContactForm, AnimatedCounter
+
+data/
+└── projects.ts         → datos mock de proyectos
+
+messages/
+├── es.json
+├── en.json
+└── pt.json
+
+i18n/
+├── routing.ts
+├── request.ts
+└── navigation.ts
+\`\`\`
+
+## 🚀 Correr localmente
+
+\`\`\`bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Idiomas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🇪🇸 Español → `/es`
+- 🇬🇧 English → `/en`
+- 🇧🇷 Português → `/pt`
 
-## Learn More
+## 📝 Licencia
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Proyecto de portafolio. TerraWatt y todo su contenido son ficticios.
